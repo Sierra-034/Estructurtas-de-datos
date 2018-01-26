@@ -68,7 +68,7 @@ public class Lista {
             NodoLista actual = primerNodo;
             
             //Itera mientras el nodo actual no haga referencia a ultimoNodo
-            while( actual.siguienteNodo != null )
+            while( actual.siguienteNodo != ultimoNodo )
                 actual = actual.siguienteNodo;
             
             ultimoNodo = actual;    // Actual el nuevo ultimoNodo
