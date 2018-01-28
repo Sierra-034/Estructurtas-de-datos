@@ -79,7 +79,7 @@ public class Lista {
     }
     
     // Determina si la lista está vacía
-    private boolean estaVacia() {
+    public boolean estaVacia() {
         return primerNodo == null;  //Devuelve true si la lista está vacía
     }
     

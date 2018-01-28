@@ -6,7 +6,7 @@ public class HerenciaPila extends Lista {
     
     // Constructor sin argumentos
     public HerenciaPila() {
-        super("Pila");
+        super("Pila heredada");
     }
     
     // Agrega objeto a la pila
